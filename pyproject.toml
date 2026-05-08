@@ -1,0 +1,11 @@
+[project]
+name = "google-oauth-demo"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "python-dotenv>=1.1.0",
+    "python-jose[cryptography]>=3.4.0",
+    "google-auth>=2.40.0",
+    "requests>=2.32.0",
+]
